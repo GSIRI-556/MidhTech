@@ -1,0 +1,16 @@
+p{
+    text-decoration: dashed;
+    color:hsl(326, 59%, 41%);
+    font-size : 28px;
+}
+i{
+    color:rgb(214, 13, 107);
+}
+h1{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+h2{
+
+    color:rgb(220, 22, 22);
+}
