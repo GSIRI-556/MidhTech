@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-color:white;
+    font-family:Arial, sans-serif;
+}
+
+/* Desktop */
+.login-form{
+    width:400px;
+    border:2px solid black;
+    padding:20px;
+    border-radius:8px;
+    text-align:center;
+    background:white;
+}
+
+.login-form h1{
+    margin-bottom:20px;
+    font-size:32px;
+}
+
+.login-form input{
+    width:350px;
+    padding:10px;
+    margin:10px 0;
+}
+
+.login-form button{
+    width:350px;
+    padding:10px;
+    background:blue;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+/* Mobile */
+@media (max-width:768px){
+
+    body{
+        background-color:gray;
+    }
+
+    .login-form{
+        width:90%;
+    }
+
+    .login-form input{
+        width:100%;
+    }
+
+    .login-form button{
+        width:100%;
+    }
+
+    .login-form h1{
+        font-size:24px;
+    }
+}
+
+</style>
+</head>
+<body>
+
+    <div class="login-form">
+        <h1>Login</h1>
+
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+
+        <button>Login</button>
+    </div>
+
+</body>
+</html>
