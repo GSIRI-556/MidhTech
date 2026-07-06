@@ -1,0 +1,40 @@
+/* Main Heading */
+h1{
+    color: darkblue;
+    font-size: 36px;
+    text-align: center;
+}
+
+/* Sub Headings */
+h2{
+    color: darkgreen;
+    font-size: 28px;
+}
+
+/* Paragraphs */
+p{
+    font-size: 18px;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* All Div Sections */
+div{
+    padding: 15px 30px;
+}
+
+/* Horizontal Line */
+hr{
+    border: 1px solid lightgray;
+}
+
+/* Span inside Heading */
+span{
+    color: brown;
+}
+
+/* First Center Section */
+div[align="center"]{
+    background-color: #f5f5f5;
+    padding: 20px;
+}
