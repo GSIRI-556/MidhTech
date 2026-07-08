@@ -1,0 +1,6 @@
+fruits=("mango","apple","grapes")
+veggies=("carrot","onion","tomato")
+fruits.count("mango")
+veggies.index("carrot")
+print(fruits)
+print(veggies)

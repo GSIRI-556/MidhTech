@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade task</title>
+    <link rel="stylesheet" href="task.css">
+</head>
+<body>
+
+   <div class="container">
+
+        <h1>Student Management System</h1>
+
+        <input type="text" id="id" placeholder="Student ID">
+
+        <input type="text" id="name" placeholder="Student Name">
+
+        <input type="number" id="marks" placeholder="Student Marks">
+
+        <br><br>
+
+        <button onclick="addStudent()">Add Student</button>
+
+        <button onclick="displayStudents()">Display Students</button>
+
+        <button onclick="findTopper()">Topper</button>
+
+        <button onclick="passedStudents()">Passed</button>
+
+        <button onclick="failedStudents()">Failed</button>
+
+        <button onclick="averageMarks()">Average</button>
+
+        <button onclick="countPassed()">Total Passed</button>
+
+        <button onclick="countFailed()">Total Failed</button>
+
+        <button onclick="sortStudents()">Sort Marks</button>
+
+        <button onclick="topThree()">Top 3</button>
+
+        <hr>
+
+        <input type="text" id="searchId" placeholder="Search By ID">
+
+        <button onclick="searchById()">Search</button>
+
+        <br><br>
+
+        <input type="text" id="searchName" placeholder="Search By Name">
+
+        <button onclick="searchByName()">Search</button>
+
+        <hr>
+
+        <div id="output"></div>
+
+    </div>
+
+   
+
+
+    
+    <script src="task.js"></script>
+</body>
+</html>
