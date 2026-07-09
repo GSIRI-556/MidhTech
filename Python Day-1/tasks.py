@@ -51,23 +51,23 @@
 #         print("Too high try again!")    
 
 #rock, paper, scissor game
-# import random
-# choices = ["rock", "paper", "scissors"]
-# while True:
-#     computer = random.choice(choices)
-#     user = input("Enter rock, paper, or scissors: ")
-#     if user == computer:
-#         print("It's a tie")
-#     elif(user == "rock" and computer =="scissors")or\
-#         (user == "paper" and computer =="rock")or\
-#         (user == "scissors" and computer =="paper"):
-#         print("you wins")
-#     elif user in choices:
-#        print("computer wins")
-#     else:
-#         print("choice is invalid")
-#     print("computer chose: ", computer)
-#     play = input("Play again? (yes/no): ")
-#     if play!= "yes":
-#         print("game over!")
-#         break
+import random
+choices = ["rock", "paper", "scissors"]
+while True:
+    computer = random.choice(choices)
+    user = input("Enter rock, paper, or scissors: ")
+    if user == computer:
+        print("It's a tie")
+    elif(user == "rock" and computer =="scissors")or\
+        (user == "paper" and computer =="rock")or\
+        (user == "scissors" and computer =="paper"):
+        print("you wins")
+    elif user in choices:
+       print("computer wins")
+    else:
+        print("choice is invalid")
+    print("computer chose: ", computer)
+    play = input("Play again? (yes/no): ")
+    if play!= "yes":
+        print("game over!")
+        break
