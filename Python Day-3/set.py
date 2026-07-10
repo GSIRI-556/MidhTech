@@ -94,3 +94,5 @@ print("After symmetric_difference_update():", temp4)
 # clear()
 copy_set.clear()
 print("\nAfter clear():", copy_set)
+
+# Added new code for testing
