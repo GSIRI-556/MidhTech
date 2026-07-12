@@ -57,6 +57,7 @@ class Result(Student):
 student = Result("Siri", 22, 35,"pass")
 student.display1()
 
+
 #polymorphism
 # class Student:
 #     def display(self):
